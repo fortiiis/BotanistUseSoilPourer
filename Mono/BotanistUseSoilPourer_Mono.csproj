@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>E:\Schedule 1 Mod Resources\Shared\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\Schedule 1 Mod Resources\Mono\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FishNet.Runtime">
+      <HintPath>E:\Schedule 1 Mod Resources\Mono\FishNet.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>E:\Schedule 1 Mod Resources\Shared\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Schedule 1 Mod Resources\Mono\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
